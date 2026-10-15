@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#080a11">
+<meta name="description" content="Mini site do Dr. Douglas Martins.">
+<title>Dr. Douglas Martins</title>
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;background:#080a11}
+body{display:flex;justify-content:center;align-items:flex-start;overflow-x:hidden}
+.site{position:relative;width:100%;max-width:349px;line-height:0;background:#080a11;overflow:hidden;isolation:isolate}
+.layout-image{display:block;width:100%;height:auto;opacity:0}
+.layer{position:absolute;inset:0;width:100%;height:100%;object-fit:fill;opacity:0;pointer-events:none;animation:reveal .9s cubic-bezier(.2,.7,.2,1) forwards}
+.layer-1{clip-path:inset(0 0 78.5% 0);animation-delay:.05s}
+.layer-2{clip-path:inset(21.5% 0 49% 0);animation-delay:.18s}
+.layer-3{clip-path:inset(51% 0 35.4% 0);animation-delay:.31s}
+.layer-4{clip-path:inset(64.6% 0 24.2% 0);animation-delay:.44s}
+.layer-5{clip-path:inset(75.8% 0 0 0);animation-delay:.57s}
+@keyframes reveal{from{opacity:0}to{opacity:1}}
+.hotspot{position:absolute;display:block;z-index:5;border-radius:1px;background:transparent;outline-offset:2px;transition:background-color .25s ease,box-shadow .25s ease}
+.hotspot:focus-visible{outline:2px solid #e8c48c}
+.hotspot:hover{background:rgba(232,196,140,.10);box-shadow:0 0 0 1px rgba(232,196,140,.35)}
+.site-link{left:15.19%;top:22.17%;width:67.91%;height:1.52%}
+.more-one{left:10.03%;top:31.74%;width:29.23%;height:.88%}
+.more-two{left:60.74%;top:38.82%;width:29.23%;height:.88%}
+.more-three{left:10.03%;top:45.85%;width:29.23%;height:.88%}
+.contact{left:28.94%;top:75.63%;width:41%;height:1.18%}
+@media(prefers-reduced-motion:reduce){.layer{animation:none;opacity:1}.hotspot{transition:none}}
+</style>
+</head>
+<body>
+<main class="site" aria-label="Mini site do Dr. Douglas Martins">
+<img class="layout-image" src="assets/design-original.png" width="2732" height="16000" alt="">
+<img class="layer layer-1" src="assets/design-original.png" alt="" aria-hidden="true">
+<img class="layer layer-2" src="assets/design-original.png" alt="" aria-hidden="true">
+<img class="layer layer-3" src="assets/design-original.png" alt="" aria-hidden="true">
+<img class="layer layer-4" src="assets/design-original.png" alt="" aria-hidden="true">
+<img class="layer layer-5" src="assets/design-original.png" alt="Página do Dr. Douglas Martins com apresentação, agendamento, serviços, biografia e contato." aria-hidden="true">
+<a class="hotspot site-link" href="#" aria-label="Acesse meu site"></a>
+<a class="hotspot more-one" href="#" aria-label="Saiba mais sobre agendamento"></a>
+<a class="hotspot more-two" href="#" aria-label="Saiba mais e acesse meu site"></a>
+<a class="hotspot more-three" href="#" aria-label="Saiba mais sobre meus serviços"></a>
+<a class="hotspot contact" href="#" aria-label="Fale comigo"></a>
+</main>
+</body>
+</html>
+MINI SITE — DR. DOUGLAS MARTINS
+
+Imagem verificada dentro do ZIP: 2732 × 16000 pixels, formato PNG.
+A imagem original de alta resolução é preservada sem cortes nem recompressão.
+
+Efeitos:
+- Entrada progressiva por cinco faixas visuais, usando transparência suave para um efeito elegante.
+- Realce discreto nos botões ao passar o cursor ou navegar por teclado.
+- Respeita a preferência de movimento reduzido do dispositivo.
+
+Publicação:
+1. Extraia o ZIP.
+2. Envie index.html e a pasta assets para a hospedagem, mantendo a estrutura.
+3. Use index.html como página inicial.
+4. Substitua os href="#" pelos endereços reais dos botões antes de publicar.
+
+O design permanece como imagem original para manter composição, fotografias, tipografia, cores e espaçamentos exatamente como enviados. Como os textos fazem parte da imagem, não são selecionáveis como texto HTML.
